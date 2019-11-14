@@ -1,5 +1,5 @@
 body{font-family:verdana;text-align: center;}
-p{color:green;}
+p{color:blue;}
 
 #myList{text-align:center}
 
@@ -15,7 +15,7 @@ p{color:green;}
     line-height: 35px;
     letter-spacing: normal;
     width:250px;
-  
+
   list-style: none;
   text-transform: lowercase;
   }
