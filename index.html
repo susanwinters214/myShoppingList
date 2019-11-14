@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Shopping List</title>
+<link rel="stylesheet" type="text/css" href="shop.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+<h1>Shopping List</h1>
+<p id="first">Get it done today</p>
+<input id="userinput" type="text" placeholder="enter item">
+<button id="enter">Enter</button>
+<div id="myList">
+<ul>
+<li class="gold red" random="23">Notebook</li>
+<li>Jello</li>
+<li>Video Game for Tyler</li>
+<li>Dog treats</li>
+<li>grapes</li>
+</ul>
+</div>
+<script src="shop.js"></script>
+
+<!-- DELETE ITEMS by CLICKING on the ITEM (using jQuery)-->
+<script>
+$(document).ready(function(){
+  $("li").click(function(){
+    $(this).hide();
+  });
+  });
+</script>
+
+</body></html>

@@ -1,0 +1,21 @@
+body{font-family:verdana;text-align: center;}
+p{color:green;}
+
+#myList{text-align:center}
+
+#myList ul{
+  border:solid 1px black;
+  max-width: 300px;
+    display:inline-block;
+  	text-align:left;
+  background-color: yellow;}
+
+
+  li{
+    line-height: 35px;
+    letter-spacing: normal;
+    width:250px;
+  
+  list-style: none;
+  text-transform: lowercase;
+  }
